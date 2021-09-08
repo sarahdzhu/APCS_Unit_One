@@ -8,13 +8,17 @@
   your first and last name.
 
 */
-    public class NameAndSchool {
-        public static void main(String[] args) {
-            //output statement for your first name (please change what is below)
-            System.out.print("Brian");
-            //output statement for your last name
+public class NameAndSchool {
+    public static void main(String[] args) {
+        //output statement for your first name (please change what is below)
+        System.out.print("Sarah");
+        System.out.println(" Zhu");
+        System.out.print("Sandy Spring Friends School");
 
-            //output statement for your school
+        //output statement for your last name
 
-        }
+        //output statement for your school
+
+    }
 }
+
