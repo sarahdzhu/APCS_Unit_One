@@ -3,7 +3,7 @@ public class PoundsToKilograms {
     public static void main(String[] args)
     { double lbs= 115;
             double kg= lbs/2.205;
-            System.out.print("115.0 pounds = "+ kg + " kilograms");
+            System.out.println("115.0 pounds = "+ kg + " kilograms");
 
 
         //declare the variables
