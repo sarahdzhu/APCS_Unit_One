@@ -8,7 +8,7 @@ public class RoundNegatives {
 Scanner scan=new Scanner(System.in);
 System.out.print("Enter a negative decimal number: ");
 double number1= scan.nextDouble();
-System.out.println(number1+" rounded to a whole number is "+ (int)number1);
+System.out.println(number1+" rounded to a whole number is "+ (int)(number1-0.5));
 
 
         // Declare a variable of the correct type that will receive the input from the user.
