@@ -18,7 +18,7 @@ public class PaintingARoom {
         int window=scan.nextInt();
         double surfaceArea=(2*width*length+2*height*length+2*height*width)-(15*door-10*window);
         double gallonPaint=surfaceArea/350;
-        int roundedGallon=(int)(-(-gallonPaint));
+        int roundedGallon=(int)(gallonPaint*10+10-1)/10;
         System.out.println("You will need "+roundedGallon+" gallons of paint!");
         System.out.println("You should've just hired someone to paint your room!");
 
